@@ -1,0 +1,95 @@
+{
+  "dataRoles": [],
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": []
+        }
+      }
+    }
+  ],
+  "objects": {
+    "styleSettings": {
+      "displayName": "文字样式",
+      "properties": {
+        "textColor": {
+          "displayName": "字体颜色",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "displayName": "字体系列",
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "textOpacity": {
+          "displayName": "透明度 (%)",
+          "type": {
+            "numeric": true
+          }
+        },
+        "textAlign": {
+          "displayName": "对齐方式",
+          "type": {
+            "enumeration": [
+              { "displayName": "左对齐", "value": "left" },
+              { "displayName": "居中", "value": "center" },
+              { "displayName": "右对齐", "value": "right" }
+            ]
+          }
+        },
+        "bold": {
+          "displayName": "加粗",
+          "type": { "bool": true }
+        },
+        "italic": {
+          "displayName": "斜体",
+          "type": { "bool": true }
+        },
+        "underline": {
+          "displayName": "下划线",
+          "type": { "bool": true }
+        },
+        "showShadow": {
+          "displayName": "启用阴影",
+          "type": { "bool": true }
+        },
+        "shadowColor": {
+          "displayName": "阴影颜色",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "resizeMode": {
+          "displayName": "大小控制模式",
+          "type": {
+            "enumeration": [
+              { "displayName": "自动适应 (Auto)", "value": "auto" },
+              { "displayName": "固定数值 (Manual)", "value": "manual" }
+            ]
+          }
+        },
+        "fontSize": {
+          "displayName": "字体大小 (仅手动)",
+          "type": { "numeric": true }
+        }
+      }
+    }
+  },
+  "privileges": [],
+  "supportsLandingPage": true,
+  "supportsEmptyDataView": true
+}

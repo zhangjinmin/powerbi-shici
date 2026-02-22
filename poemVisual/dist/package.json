@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"JM2IN","email":"zhang@jinm.in"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/poemVisualEADD5C8E74F446A88849D7D4AC9C7593.pbiviz.json"
+			}
+		],
+		"visual": {"name":"poemVisual","displayName":"PoemVisual","guid":"poemVisualEADD5C8E74F446A88849D7D4AC9C7593","visualClassName":"Visual","version":"1.0.0.0","description":"A visual that shows random poems.","supportUrl":"https://github.com/","gitHubUrl":"https://github.com/"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

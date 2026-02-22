@@ -1,0 +1,28 @@
+.visual-host {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.poem-text {
+    // Flex 布局：核心作用是垂直居中
+    display: flex;
+    // 水平方向由 JS 控制 (flex-start/center/flex-end)
+    align-items: center;     
+    
+    width: 100%;
+    height: 100%;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    
+    // 文本换行处理
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.5;
+    
+    // 过渡动画：让样式变化时更丝滑
+    transition: all 0.2s ease-in-out;
+}

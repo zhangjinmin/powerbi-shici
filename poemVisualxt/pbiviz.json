@@ -1,0 +1,24 @@
+{"visual":{
+    "name":"poemVisual",
+    "displayName":"PoemVisual",
+    "guid":"poemVisualEADD5C8E74F446A88849D7D4AC9C7593",
+    "visualClassName":"Visual",
+    "version":"1.0.0.0",
+    "description":"A visual that shows random poems.",
+    "supportUrl":"https://github.com/",
+    "gitHubUrl":"https://github.com/"
+    },
+    "apiVersion":"5.1.0",
+    "author":{
+        "name":"JM2IN",
+        "email":"zhang@jinm.in"
+        },
+        "assets":{
+            "icon":"assets/icon.png"
+            },
+            "externalJS":null,
+            "style":"style/visual.less",
+            "capabilities":"capabilities.json",
+            "dependencies":"dependencies.json",
+            "stringResources":[]
+        }
